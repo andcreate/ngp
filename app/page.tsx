@@ -8,14 +8,14 @@ import Sl_logo from "@/app/components/logos/sl_logo";
 export default function Home() {
   return (
     <div className="h-screen relative">
-      <div className="flex flex-col h-full items-center  align gap-8">
+      <div className="flex flex-col h-full items-center  align gap-5 lg:gap-8">
         <main className="flex-1 min-h-0 ">
           <Hero />
           <div className="relative z-10 h-full flex flex-col items-center justify-center">
-            <h1 className="text-8 font-caveat py-8">#andCreate</h1>
-            <dl className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <h1 className="text-5 lg:text-8 font-caveat py-8">#andCreate</h1>
+            <dl className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-8">
               <dt className="col-span-1 self-center">
-                <span className="text-5 font-doto">Web Development</span>
+                <span className="text-3 lg:text-5 font-doto">Web Development</span>
               </dt>
               <dd className="col-span-1 self-center">
                 <a href="https://www.andcre.com">
@@ -23,7 +23,7 @@ export default function Home() {
                 </a>
               </dd>
               <dt className="col-span-1 self-center">
-                <span className="text-5 font-doto">VR Portfolio</span>
+                <span className="text-3 lg:text-5 font-doto">VR Portfolio</span>
               </dt>
               <dd className="col-span-1 self-center">
                 <a href="https://virtual.andcre.com">
@@ -31,7 +31,7 @@ export default function Home() {
                 </a>
               </dd>
               <dt className="col-span-1 self-center">
-                <span className="text-5 font-doto">Degital Content</span>
+                <span className="text-3 lg:text-5 font-doto">Degital Content</span>
               </dt>
               <dd className="col-span-1 self-center">
                 <a href="https://andcreate.booth.pm/">
@@ -39,7 +39,7 @@ export default function Home() {
                 </a>
               </dd>
               <dt className="col-span-1 self-center">
-                <span className="text-5 font-doto">Degital Content Docs</span>
+                <span className="text-3 lg:text-5 font-doto">Degital Content Docs</span>
               </dt>
               <dd className="col-span-1 self-center">
                 <a href="https://andcreate.github.io/vdc/">Studio Louie Docs</a>
