@@ -65,10 +65,6 @@ export default function Hero({ color = "#1f818c" }: HeroProps) {
     };
   }, [color]);
 
-  if (!isWebGLAvailable) {
-    return <div className="w-full h-full bg-gradient-to-b from-cyan-900 to-cyan-600" style={{ minHeight: "400px" }} />;
-  }
-
   useEffect(() => {
     const canvas = document.createElement("canvas");
     const gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
@@ -77,6 +73,10 @@ export default function Hero({ color = "#1f818c" }: HeroProps) {
       setIsWebGLAvailable(false);
     }
   }, []);
+
+  if (!isWebGLAvailable) {
+    return <div className="w-full h-full bg-gradient-to-b from-cyan-900 to-cyan-600" style={{ minHeight: "400px" }} />;
+  }
 
   return (
     <div className="absolute inset-0 z-0">
