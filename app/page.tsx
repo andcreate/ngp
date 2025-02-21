@@ -1,101 +1,58 @@
 import Image from "next/image";
+import Hero from "@/app/Hero";
+
+import Logotype_A from "@/app/components/logos/logotype_A";
+import ROGIX_LOGO from "@/app/components/logos/rogixLogo";
+import Sl_logo from "@/app/components/logos/sl_logo";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/nextjs-github-pages/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ul className="list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ul>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/nextjs-github-pages/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/nextjs-github-pages/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/nextjs-github-pages/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/nextjs-github-pages/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+    <div className="h-screen relative">
+      <div className="flex flex-col h-full items-center  align gap-8">
+        <main className="flex-1 min-h-0 ">
+          <Hero />
+          <div className="relative z-10 h-full flex flex-col items-center justify-center">
+            <h1 className="text-8 font-caveat py-8">#andCreate</h1>
+            <dl className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <dt className="col-span-1 self-center">
+                <span className="text-5 font-doto">Web Development</span>
+              </dt>
+              <dd className="col-span-1 self-center">
+                <a href="https://www.andcre.com">
+                  <Logotype_A style={{ width: "170px", height: "50px" }} />
+                </a>
+              </dd>
+              <dt className="col-span-1 self-center">
+                <span className="text-5 font-doto">VR Portfolio</span>
+              </dt>
+              <dd className="col-span-1 self-center">
+                <a href="https://virtual.andcre.com">
+                  <ROGIX_LOGO style={{ width: "50px", height: "50px" }} color={"#FFF"} />
+                </a>
+              </dd>
+              <dt className="col-span-1 self-center">
+                <span className="text-5 font-doto">Degital Content</span>
+              </dt>
+              <dd className="col-span-1 self-center">
+                <a href="https://andcreate.booth.pm/">
+                  <Sl_logo style={{ width: "170px", height: "50px" }} />
+                </a>
+              </dd>
+              <dt className="col-span-1 self-center">
+                <span className="text-5 font-doto">Degital Content Docs</span>
+              </dt>
+              <dd className="col-span-1 self-center">
+                <a href="https://andcreate.github.io/vdc/">Studio Louie Docs</a>
+              </dd>
+            </dl>
+          </div>
+        </main>
+        <footer className="relative z-10 flex-none">
+          <div className="py-3">
+            <p className="font-noto-sans">&copy; andCreate</p>
+          </div>
+        </footer>
+      </div>
     </div>
   );
 }
