@@ -106,7 +106,6 @@ body {
 
 
 
-
 @utility text-0 { font-size: var(--font-0); line-height: var(--leading-0); }
 @utility text-1 { font-size: var(--font-1); line-height: var(--leading-1); }
 @utility text-2 { font-size: var(--font-2); l　ine-height: var(--leading-2); }

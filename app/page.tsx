@@ -18,7 +18,7 @@ export default function Home() {
                 <span className="text-3 lg:text-5 font-doto">Web Development</span>
               </dt>
               <dd className="col-span-1 self-center">
-                <a href="https://www.andcre.com">
+                <a href="https://www.andcre.com" target="_blank">
                   <Logotype_A style={{ width: "170px", height: "50px" }} />
                 </a>
               </dd>
@@ -26,7 +26,7 @@ export default function Home() {
                 <span className="text-3 lg:text-5 font-doto">VR Portfolio</span>
               </dt>
               <dd className="col-span-1 self-center">
-                <a href="https://virtual.andcre.com">
+                <a href="https://virtual.andcre.com" target="_blank">
                   <ROGIX_LOGO style={{ width: "50px", height: "50px" }} color={"#FFF"} />
                 </a>
               </dd>
@@ -34,7 +34,7 @@ export default function Home() {
                 <span className="text-3 lg:text-5 font-doto">Degital Contents</span>
               </dt>
               <dd className="col-span-1 self-center">
-                <a href="https://andcreate.booth.pm/">
+                <a href="https://andcreate.booth.pm/" target="_blank">
                   <Sl_logo style={{ width: "170px", height: "50px" }} />
                 </a>
               </dd>
@@ -42,7 +42,9 @@ export default function Home() {
                 <span className="text-3 lg:text-5 font-doto">Degital Contents Docs</span>
               </dt>
               <dd className="col-span-1 self-center">
-                <a href="https://andcreate.github.io/vdc/">Studio Louie Docs</a>
+                <a href="https://andcreate.github.io/vdc/" target="_blank">
+                  Studio Louie Docs
+                </a>
               </dd>
             </dl>
           </div>
