@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Hero from "@/app/Hero";
 
 import Logotype_A from "@/app/components/logos/logotype_A";
