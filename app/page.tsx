@@ -31,7 +31,7 @@ export default function Home() {
                 </a>
               </dd>
               <dt className="col-span-1 self-center">
-                <span className="text-3 lg:text-5 font-doto">Degital Content</span>
+                <span className="text-3 lg:text-5 font-doto">Degital Contents</span>
               </dt>
               <dd className="col-span-1 self-center">
                 <a href="https://andcreate.booth.pm/">
@@ -39,7 +39,7 @@ export default function Home() {
                 </a>
               </dd>
               <dt className="col-span-1 self-center">
-                <span className="text-3 lg:text-5 font-doto">Degital Content Docs</span>
+                <span className="text-3 lg:text-5 font-doto">Degital Contents Docs</span>
               </dt>
               <dd className="col-span-1 self-center">
                 <a href="https://andcreate.github.io/vdc/">Studio Louie Docs</a>
