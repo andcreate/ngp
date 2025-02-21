@@ -51,7 +51,7 @@ export default function Hero({ color = "#1f818c" }: HeroProps) {
           cloudColor: 0x70714,
           lightColor: 0x5c4b42,
           scaleMobile: 10,
-          texturePath: "/noise.png",
+          texturePath: "/noise_2.png",
         });
       }
     } catch (error) {
