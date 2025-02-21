@@ -5,6 +5,28 @@ import Logotype_A from "@/app/components/logos/logotype_A";
 import ROGIX_LOGO from "@/app/components/logos/rogixLogo";
 import Sl_logo from "@/app/components/logos/sl_logo";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: {
+    template: "%s - #andCreate",
+    default: "#andCreate",
+  },
+  description: "I like to create something that is a win & win for everyone.",
+  // openGraph: {
+  //   type: "article",
+  //   title: "%s - andCreate",
+  //   // description: blogData.excerpt,
+  //   images: `${process.env.NEXT_PUBLIC_URL}/logotype_A.png`,
+  // },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "%s - andCreate",
+  //   // description: post.excerpt,
+  //   images: `${process.env.NEXT_PUBLIC_URL}/logotype_A.png`,
+  // },
+};
+
 export default function Home() {
   return (
     <div className="h-screen relative">
