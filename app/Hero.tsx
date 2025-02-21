@@ -44,12 +44,13 @@ export default function Hero({ color = "#1f818c" }: HeroProps) {
           gyroControls: false,
           minHeight: 200.0,
           minWidth: 200.0,
-          scale: 1.0,
-          speed: 0.3,
+          scale: 4,
+          speed: 0.5,
           backgroundColor: 0x252222,
           skyColor: 0x24485f,
           cloudColor: 0x70714,
           lightColor: 0x5c4b42,
+          scaleMobile: 10,
           texturePath: "/noise.png",
         });
       }
