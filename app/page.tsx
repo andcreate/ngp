@@ -37,7 +37,7 @@ export default function Home() {
             <h1 className="text-5 lg:text-8 font-caveat py-8">#andCreate</h1>
             <dl className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-8">
               <dt className="col-span-1 self-center">
-                <span className="text-3 lg:text-5 font-doto">Web Development</span>
+                <span className="text-3 lg:text-5 font-doto">- Web Development</span>
               </dt>
               <dd className="col-span-1 self-center">
                 <a href="https://www.andcre.com" target="_blank">
@@ -45,7 +45,7 @@ export default function Home() {
                 </a>
               </dd>
               <dt className="col-span-1 self-center">
-                <span className="text-3 lg:text-5 font-doto">VR Portfolio</span>
+                <span className="text-3 lg:text-5 font-doto">- VR Portfolio</span>
               </dt>
               <dd className="col-span-1 self-center">
                 <a href="https://virtual.andcre.com" target="_blank">
@@ -53,7 +53,7 @@ export default function Home() {
                 </a>
               </dd>
               <dt className="col-span-1 self-center">
-                <span className="text-3 lg:text-5 font-doto">Degital Contents</span>
+                <span className="text-3 lg:text-5 font-doto">- Degital Contents</span>
               </dt>
               <dd className="col-span-1 self-center">
                 <a href="https://andcreate.booth.pm/" target="_blank">
@@ -61,7 +61,7 @@ export default function Home() {
                 </a>
               </dd>
               <dt className="col-span-1 self-center">
-                <span className="text-3 lg:text-5 font-doto">Degital Contents Docs</span>
+                <span className="text-3 lg:text-5 font-doto">- Degital Contents Docs</span>
               </dt>
               <dd className="col-span-1 self-center">
                 <a href="https://andcreate.github.io/vdc/" target="_blank">
