@@ -13,18 +13,6 @@ export const metadata: Metadata = {
     default: "#andCreate",
   },
   description: "I like to create something that is a win & win for everyone.",
-  // openGraph: {
-  //   type: "article",
-  //   title: "%s - andCreate",
-  //   // description: blogData.excerpt,
-  //   images: `${process.env.NEXT_PUBLIC_URL}/logotype_A.png`,
-  // },
-  // twitter: {
-  //   card: "summary_large_image",
-  //   title: "%s - andCreate",
-  //   // description: post.excerpt,
-  //   images: `${process.env.NEXT_PUBLIC_URL}/logotype_A.png`,
-  // },
 };
 
 export default function Home() {
